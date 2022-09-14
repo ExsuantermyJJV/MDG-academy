@@ -2,71 +2,88 @@
 /*testimonios */
 
 .home2 {
-  min-height: 50vh;
-background-color: rgb(0, 0, 0);
-  z-index: 0;
-  overflow: hidden;
-  position: relative;
+    min-height: 50vh;
+  background-color: rgb(0, 0, 0);
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
 }
 
 .home2 .content2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
-  padding-bottom: 0;
-  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 7rem;
+    padding-bottom: 0;
+    text-align: center;
 }
 
 .home2 .content2 h1 {
-  font-size: 4.5rem;
-  color: #00d9ff;
-  padding: 0 1rem;
-  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
-  text-transform: uppercase;
+    font-size: 4.5rem;
+    color: rgb(255, 255, 255);
+    padding: 0 1rem;
+    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+    text-transform: uppercase;
 }
 
 .home2 .content2 p {
-  font-size: 2rem;
-  color: rgb(255, 255, 255);
-  padding: 1rem 25rem;   
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem 25rem;   
 }
+
+
 .product1 {
-  text-align: center;
-  margin: 0px 0;
+    text-align: center;
+    margin: 0px 0;
 }
 
 .product1 .box-container1 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
- 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .product1 .box-container1 .box1 {
-  height: 30rem;
-  width: 30rem;
-  background: none;
-  text-align: center;
-  margin: 2rem;
-  cursor: pointer;
+    height: 30rem;
+    width: 30rem;
+    background: none;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 2rem;
+    cursor: pointer;
 }
 
 
 .product1 .box-container1 .box1 h3 {
-
-  transition: .2s;
-font-size: 1.3vh;
-  color: white;
   
+    transition: .2s;
+font-size: 1.3vh;
+    color: white;
+    
 }
 
 .product1 .box-container1 .box1 p {
-  font-size: 1.3rem;
-  padding: .7rem 2rem;
-  color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    padding: .7rem 2rem;
+    color: rgb(255, 255, 255);
 }
+
+
+
+
+
+@media (max-width: 1200px) {
+    
+ 
+    .home .content p {
+        padding: 1.5rem 2rem;
+    }
+
+
+  }
 
 /*testimonios */
 
