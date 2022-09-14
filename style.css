@@ -307,16 +307,27 @@ a {
 }
 .contenido{
   width: 60%;
-  padding: 0 1% 1% 1%;
+  padding: 0 1% 5% 1%;
   color: #ffffff;
   font-weight: 700;
-  font-size: 1.5vh;
+  font-size: 1.7vh;
 }
 .animacionContenido{
   height:0;
   padding: 0;
   visibility: hidden;
 }
+
+@media (max-width: 1450px) {
+  
+  .contenido{
+    width: 60%;
+    padding: 0 1% 5% 1%;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.5vh;
+  }
+
 
 @media (max-width: 1450px) {
   
