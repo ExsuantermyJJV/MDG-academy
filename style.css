@@ -882,7 +882,7 @@ header .fa-bars {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 1.5rem;
 
 }
@@ -1008,7 +1008,13 @@ header .fa-bars {
     html {
       font-size: 50%;
     }
-   
+      .services3 .box-container3 {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+          grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      gap: 1.5rem;
+    }
   }
 
 
