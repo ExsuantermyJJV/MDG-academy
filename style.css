@@ -639,6 +639,9 @@ header .fa-bars {
     color: #00d9ff;
   }
   
+.contboton{
+  text-align: center;
+}
 
   button {
    animation: bounce 3s cubic-bezier(.78,.26,0,.99) infinite;
