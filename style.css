@@ -19,13 +19,6 @@
     text-align: center;
 }
 
-.home2 .content2 h1 {
-    font-size: 4.5rem;
-    padding: 0 1rem;
-    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
-    text-transform: uppercase;
-}
-
 .home2 .content2 p {
     font-size: 2rem;
     color: rgb(255, 255, 255);
@@ -70,8 +63,6 @@ font-size: 1.3vh;
     color: rgb(255, 255, 255);
 }
 
-
-
 @media (max-width: 1200px) {
     
     html {
@@ -85,8 +76,6 @@ font-size: 1.3vh;
     .home .content p {
         padding: 1.5rem 2rem;
     }
-
-
   }
 
 /*testimonios */
