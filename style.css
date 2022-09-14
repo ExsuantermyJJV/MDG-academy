@@ -879,16 +879,13 @@ header .fa-bars {
 }
 
 .services3 .box-container3 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
+  display: flex;
+justify-content: space-evenly;
 }
 
 .services3 .box-container3 .box3 {
   background: rgb(0, 0, 0);
-  padding: 3rem;
+
   text-align: center;
 }
 
