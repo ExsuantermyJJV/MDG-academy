@@ -747,32 +747,7 @@ header .fa-bars {
     padding: 1rem 0;
     line-height: 2;
   }
-/* segundo cuadro*/
-.about .content1 {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-}
 
-
-.about .content1 h3 {
-  color: #ffffff;
-  font-size: 3.6rem;
-}
-
-.about .content1 h3 span {
-  color: #00d9ff;
-}
-.about .content1 p span {
-  color: #00d9ff;
-}
-
-.about .content1 p {
-  font-size: 2rem;
-  color: rgb(255, 255, 255);
-  padding: 1rem 0;
-  line-height: 2;
-}
 /* fin segundo cuadro*/
 
 /* comidas */ 
