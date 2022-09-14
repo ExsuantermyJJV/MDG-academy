@@ -656,6 +656,7 @@ header .fa-bars {
    margin: 4rem 0;
    border-color: #000000;
    border: #f7f6ff;
+	  text-transform: capitalize;
 }
 
 @keyframes bounce {
