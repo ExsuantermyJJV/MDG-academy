@@ -452,6 +452,11 @@ a {
     padding-top: 2%;
 }
 
+.blog-card h1{
+  text-align: center;
+}
+
+
 .h23{
 font-size: 120%;
 color: black;
