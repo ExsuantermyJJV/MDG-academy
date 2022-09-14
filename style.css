@@ -343,6 +343,9 @@ a {
       color: #e8e9e8;
   }
 
+  html {
+        font-size: 55%;
+    }
 }
 
 
