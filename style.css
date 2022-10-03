@@ -600,7 +600,9 @@ header .navbar ul li a {
   font-size: 3rem;
   color: #ffffff;
 }
-
+header .navbar a:hover {
+    color: #00d9ff;
+}
 
 header .fa-bars {
   font-size: 3rem;
