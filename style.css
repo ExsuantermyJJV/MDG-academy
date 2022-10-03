@@ -890,7 +890,19 @@ header .fa-bars {
   border-radius: .5rem;
 }
 
+.services3 .box:hover {
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
+  transform: scale(1.06);
+}
 
+.services .box:hover {
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
+  transform: scale(1.06);
+}
 
 .services3 .box-container3 .box3 h3 {
   font-size: 2.2rem;
